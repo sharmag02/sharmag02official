@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;700&family=Quintessential&display=swap');
+:root{
+    --blue:#3b26e0ea;
+    --green:#73e92f;
+    --yellow:#58e3e7ea;
+    --pink: #eb85c4ea;
+    --grey: #d8d1d5ea;
+    --white: #fffdfdce;
+    --gradient:linear-gradient(90deg, var(--blue), var(--green));
+    --gradient2:linear-gradient(60deg, var(--yellow), var(--pink));
+    --gradient3:linear-gradient(30deg, var(--grey), var(--white));
+
+  }
+
+*{margin: 0;
+padding: 0;
+}
+
+
+
+.sidebar{
+    background:var(--gradient);
+   
+    font-family: 'Nunito', sans-serif;
+    height: 101vh;
+    position: absolute;
+   
+    
+
+}
+
+
+.sidebarGo{
+  transform: translate(-443px, 0px);
+  position: absolute;
+}
+
+.hamburger{
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin-top: 10px;
+}
+
+.ham{
+  margin-top: 10px;
+  margin-left: 10px;
+  
+}
+
+.cross{
+  margin-left: 145px;
+  margin-top: 8px;
+}
+
+.sidebar nav{
+    padding: 45px;
+
+}
+.logo{
+    width:60%;
+    display:flex;
+  
+    align-items: center;
+}
+.logo img{
+    width: 50%;
+    border:5px solid white;
+    border-radius: 50px;
+}
+.sidebar nav li{
+    font-size: 20px;
+    list-style: none;
+    padding: 33px 0;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar nav li a:hover{
+    
+    color: palevioletred;
+}
+
+
+
+
+
+.main{
+    
+    width: 100vw;
+    padding-left: 170px;
+    background: rgba(0,0,0,.6) url(bg.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+
+   
+}
+
+.container{
+    display: flex;
+    
+}
+
+.infoContainer{
+    
+    height: 55vh;
+    width: 80vw;
+    margin: 144px  auto;
+    display: flex;
+    justify-content: space-around;
+    
+    
+
+}
+
+
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 55px;
+    color: rgba(14, 231, 231, 0.945);
+    
+}
+.name{
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+  
+}
+.moreabout{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    color: rgb(70, 143, 192);
+   
+
+}
+.about{
+    font-size: 22px;
+    margin-top: 23px;
+    color: chocolate;
+}
+.buttons{
+    margin-top: 34px;
+}
+
+.buttons button{ 
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 19px;
+    margin: 0 3px;
+    cursor: pointer;
+    
+
+}
+
+.buttons button:hover{
+    color: dodgerblue;
+    background-color: white;
+
+}
+.devpic img{
+    width: 250px;
+    height: 30vh;
+    flex:1 1 40rem;
+    display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    margin-top: 10px;
+    background: var(--gradient2);
+    
+    
+  }
+  
+  .footer .box-container .box{
+    flex:1 1 20rem;
+    margin-left: 3px;
+    
+    
+  }
+  
+  .footer .box-container .box h3{
+    font-size: 2.5rem;
+    color:var(--violet);
+    padding:.7rem 0;
+    margin-left: 2px;
+    font-size: 22px;
+    
+  }
+  
+  .footer .box-container .box p{
+    font-size: 1.5rem;
+    color:#666;
+    padding:.7rem 0;
+    
+    
+  }
+  
+  .footer .box-container .box a{
+    display: block;
+    color: black;
+    padding:.7rem 2px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .footer .box-container .box a:hover{
+    color:rgb(84, 8, 224);
+  }
+  
+  .footer .box-container .box p i{
+    padding-right: .5rem;
+    color:var(--pink);
+  }
+  
+  .footer .credit{
+    font-size: 1.5rem;
+    margin-top: 0.2rem;
+    padding:1rem;
+    padding-top: 1rem;
+    text-align: center;
+    border-top: .1rem solid rgba(0,0,0,.1);
+    color: black;
+    background: var(--gradient3);
+    
+
+  }
+  
+  .footer .credit span{
+    color: rgb(0, 0, 0);
+  
+  }
+
+  .credit a{
+    padding-left: 20px;
+    text-decoration: none;
+    padding-top: 10px ;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+
+ 
+
+  
+  @media (max-width:1215px){
+
+    
+    .devpic{
+     
+     display: none;
+    }
+    .sidebar{
+      height: 110vh;
+    }
+
+    .main{
+      padding-left: 20px;
+      background: rgba(0,0,0,.6) url(bg3.jpg);
+      background-size: cover;
+      background-blend-mode: darken;
+      height: 110vh;
+    }
+
+    .hello{
+      font-size: 38px;
+    }
+    .name{
+      font-size: 27px;
+    }
+
+    .moreabout{
+      font-size: 23px;
+    }
+    .about{
+      font-size: 20px;
+    }
+
+    .buttons button{
+      margin-bottom: 10px;
+      margin-left: 9px;
+    }
+    .infoContainer{
+      margin-top: 170px;
+    }
+    
+  }
+  
+    
+  
+    
+  
+ 
+
+
+
+
+
+
+
+
+  

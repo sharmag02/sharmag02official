@@ -1,0 +1,769 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;700&family=Quintessential&display=swap');
+:root{
+    --blue:#3b26e0ea;
+    --green:#73e92f;
+    --yellow:#58e3e7ea;
+    --pink: #eb85c4ea;
+    --grey: #d8d1d5ea;
+    --white: #fffdfdce;
+    --violet: #8b42eb;
+    --gold: #e9b935ce;
+    
+    --gradient:linear-gradient(90deg, var(--blue), var(--green));
+    --gradient2:linear-gradient(60deg, var(--yellow), var(--pink));
+    --gradient3:linear-gradient(30deg, var(--grey), var(--white));
+    --gradient4:linear-gradient(80deg, var(--gold), var(--violet));
+
+  }
+
+*{margin: 0;
+padding: 0;
+}
+
+
+.sidebar{
+  background:var(--gradient);
+ 
+  font-family: 'Nunito', sans-serif;
+  height: 100vh;
+  position: absolute;
+ 
+  
+
+}
+
+
+.sidebarGo{
+transform: translate(-443px, 0px);
+position: absolute;
+}
+
+.hamburger{
+cursor: pointer;
+position: absolute;
+top: 10px;
+left: 10px;
+margin-top: 10px;
+}
+
+.ham{
+margin-top: 10px;
+margin-left: 10px;
+}
+
+.cross{
+margin-left: 145px;
+margin-top: 8px;
+}
+.sidebar nav{
+    padding: 45px;
+
+}
+
+.sidebar nav li{
+    font-size: 20px;
+    list-style: none;
+    padding: 33px 0;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar nav li a:hover{
+    
+    color: palevioletred;
+}
+
+
+.container{
+  display: flex;
+  
+  
+  
+}
+.main{
+  width: 100vw;
+  padding-left: 170px;
+  
+    
+}
+
+
+
+  .aboutme img{
+    height: 10rem;
+    width:10rem;
+    display: flex;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 10px;
+   
+  }
+  .AboutContainer{
+      width: 80vw;
+      height: 140vh;
+      padding-top: 70px;
+     
+  }
+  
+
+  .AboutContainer h1{
+      text-align: center;
+      font-size: 38px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      color: rgb(221, 35, 206);
+      background: rgba(0,0,0,.5) url(bg2.jpg);
+      background-size: cover;
+      background-blend-mode: darken;
+     
+      
+  }
+
+  .aboutme{
+      box-sizing: border-box;
+      padding-top: 10px;
+      border: dotted rgb(192, 183, 183);
+      height: 125vh;
+      
+  }
+
+  .aboutme h2{
+      text-align: center;
+      font-size: 33px;
+      color: turquoise;
+  }
+  .aboutme h3{
+      text-align: center;
+      font-size: 28px;
+      padding: 8px;
+      color: rgb(93, 219, 43);
+  }
+
+  .aboutme h4{
+      text-align: center;
+      font-size: 23px;
+
+  }
+
+  .aboutme p{
+      text-align: center;
+      font-size: 20px;
+      padding: 6px;
+  }
+
+
+  .education{
+      box-sizing: border-box;
+      width: 80vw;
+      border: dashed black;
+      height: 155vh;
+      background: rgba(0,0,0,.8) url(education1.jpg);
+background-size: cover;
+background-blend-mode: darken;
+      
+  }
+  .education h1{
+      text-align: center;
+      padding: 10px;
+      color: rgb(14, 212, 212);
+      background-color: slategrey;
+  }
+
+  .education p{
+      text-align: left;
+      font-size: 20px;
+      padding-top: 9px;
+      padding: 5px;
+      color: salmon;
+      padding-left: 10px;
+
+  }
+
+  .markscontainer{
+    width: 84vw;
+    height: 55vh;
+  }
+
+  
+ 
+  .classtth h2{
+      text-align: center;
+      padding: 10px;
+      font-size: 25px;
+      color: springgreen;
+  }
+  .classtwth h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    color: springgreen;
+}
+  .marksbox{
+      width: 15.2%;
+      float: left;
+      padding-top: 100px;
+      padding-left: 13px;
+      
+
+  }
+  
+  
+
+  .marksbox .chart{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    color: chocolate;
+    font-size: 20px;
+    line-height: 120px;
+  }
+
+  
+  
+  .marksbox h3{
+    margin: auto;
+    
+    color: #17b5f3;
+    padding-left: 26px;
+    padding-top: 10px;
+   
+    
+   
+    
+  
+  }
+
+  .marksbox h4{
+    text-align: center;
+    padding-right: 45px ;
+    padding-top: 5px;
+    color: violet;
+  }
+
+  .marksbox canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+  
+  }
+
+.favorites{
+  width: 80vw;
+  box-sizing: border-box;
+  height: 160vh;
+  border: double black;
+  background: rgba(0, 0, 0, 0.7) url(favorite.jpg);
+  background-size: contain;
+  background-blend-mode: darken;
+}
+
+  .favorites h1{
+    text-align: center;
+    padding: 15px;
+    color: deepskyblue;
+   background-color: honeydew;
+  }
+
+  .favorites p{
+    text-align: center;
+    font-size: 25px;
+    color: hotpink;
+    padding: 5px;
+    font-family: cursive;
+  }
+
+  .aim{
+    height: 70vh;
+    width: 80vw;
+    box-sizing: border-box;
+    border: solid gray;
+    background: rgba(0,0,0, 0.5) url(goals.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+  }
+
+  .aim h1{
+    text-align: center;
+    font-size: 30px;
+    background-color: lavender;
+    padding: 12px ;
+  }
+
+  .aim p{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(224, 224, 157);
+
+  }
+
+.philosophy{
+  box-sizing: border-box;
+  width: 80vw;
+  height: 140vh;
+  border: solid black;
+  background: cornsilk;
+  
+  
+}
+
+.philosophy h1{
+  text-align: center;
+  background: rgb(228, 217, 174);
+  padding: 10px;
+}
+
+.philosophy p{
+  text-align: left;
+  font-size: 20px;
+  padding: 20px;
+  color: rgb(131, 11, 243);
+}
+
+.philosophy span{
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+.footer .boxcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  margin-top: 10px;
+  background: var(--gradient2);
+  
+  
+}
+
+.footer .boxcontainer .box{
+  flex:1 1 20rem;
+  margin-left: 3px;
+  
+  
+}
+
+.footer .boxcontainer .box h3{
+  font-size: 2.5rem;
+  color:var(--violet);
+  padding:.7rem 0;
+  margin-left: 2px;
+  font-size: 22px;
+  
+}
+
+.footer .boxcontainer .box p{
+  font-size: 1.5rem;
+  color:#666;
+  padding:.7rem 0;
+  
+  
+}
+
+.footer .boxcontainer .box a{
+  display: block;
+  color: black;
+  padding:.7rem 2px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer .boxcontainer .box a:hover{
+  color:rgb(84, 8, 224);
+}
+
+.footer .boxcontainer .box p i{
+  padding-right: .5rem;
+  color:var(--pink);
+}
+
+.footer .credit{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  padding:1rem;
+  padding-top: 2rem;
+  text-align: center;
+  border-top: .1rem solid rgba(0,0,0,.1);
+  color: black;
+  background: var(--gradient3);
+
+}
+
+.footer .credit span{
+  color:var(--pink);
+}
+
+.credit a{
+  padding-left: 20px;
+  text-decoration: none;
+  padding-top: 10px ;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+
+
+.country{
+  font-size: 22px;
+  font-weight: bold;
+  color: #3b2fe9;
+  font-style: italic;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1320px){
+
+
+
+
+  .sidebar{
+    height: 110vh;
+  }
+
+  .main{
+    padding-left: 20px;
+    
+    
+  }
+
+  
+
+
+.AboutContainer{
+  height: 140vh;
+  margin-top: 120px;
+  padding-left: 60px;
+}
+
+.aboutme{
+  border: none;
+  height: 130vh;
+  background: none;
+}
+
+.aboutme img{
+  height: 8rem;
+  width:8rem;
+  display: flex;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: auto;
+  margin-top: 10px;
+  padding-bottom: 10px;
+ 
+}
+
+
+.AboutContainer h1{
+    text-align: center;
+    font-size: 28px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    color: rgb(221, 35, 206);
+    
+   
+    
+}
+
+
+
+.aboutme h2{
+    text-align: center;
+    font-size: 25px;
+    color: turquoise;
+}
+.aboutme h3{
+    text-align: center;
+    font-size: 28px;
+    padding: 8px;
+    color: rgb(93, 219, 43);
+}
+
+.aboutme h4{
+    text-align: center;
+    font-size: 21px;
+
+}
+
+.aboutme p{
+    text-align: center;
+    font-size: 19px;
+    padding: 6px;
+}
+
+
+.education{
+    box-sizing: border-box;
+    
+    border:none;
+    height: 480vh;
+    background: none;
+  width: 95.2vw;
+    
+    
+    
+    
+}
+.education h1{
+    text-align: center;
+    padding: 10px;
+    color: rgb(14, 212, 212);
+    background-color: slategrey;
+}
+
+.education p{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 9px;
+    padding: 5px;
+    color: salmon;
+    
+
+}
+
+.markscontainer{
+  
+  height: 240vh;
+ 
+}
+
+
+
+.classtth h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    color: springgreen;
+}
+.classtwth h2{
+  text-align: center;
+  padding: 10px;
+  font-size: 22px;
+  color: springgreen;
+}
+.marksbox{
+    width: 20%;
+   float: none;
+    
+    
+    
+    margin: auto;
+    
+    
+
+}
+
+
+
+.marksbox .chart{
+  position: relative;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  color: chocolate;
+  font-size: 20px;
+  line-height: 120px;
+}
+
+
+
+.marksbox h3{
+  margin: auto;
+  
+  color: #17b5f3;
+  
+  padding-top: 10px;
+ 
+  
+ 
+  
+
+}
+.marksbox h4{
+  
+  
+  
+  display: none;
+  
+ 
+  
+ 
+  
+
+}
+
+
+.marksbox canvas{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+
+}
+
+.favorites{
+width: 95.2vw;
+box-sizing: border-box;
+height: 160vh;
+border: none;
+background: rgba(0, 0, 0, 0.7) url(favorite.jpg);
+background-size: contain;
+background-blend-mode: darken;
+}
+
+.favorites h1{
+  text-align: center;
+  padding: 15px;
+  color: deepskyblue;
+ background-color: honeydew;
+ font-size: 25px;
+}
+
+.favorites p{
+  text-align: left;
+  font-size: 18px;
+  color: hotpink;
+  padding: 5px;
+  font-family: cursive;
+}
+
+.aim{
+  height: 60vh;
+  width: 95.2vw;
+  box-sizing: border-box;
+  border: none;
+  background: rgba(0,0,0, 0.5) url(goals.jpg);
+  background-size: auto;
+  background-blend-mode: darken;
+}
+
+.aim h1{
+  text-align: center;
+  font-size: 25px;
+  background-color: lavender;
+  padding: 12px ;
+}
+
+.aim p{
+  text-align: left;
+  padding: 10px;
+  font-size: 18px;
+  color: rgb(224, 224, 157);
+
+}
+
+.philosophy{
+box-sizing: border-box;
+width: 95.2vw;
+height: 210vh;
+border: solid black;
+background: rgb(229, 240, 215);
+
+
+}
+
+.philosophy h1{
+text-align: center;
+background: rgb(228, 217, 174);
+padding: 10px;
+}
+
+.philosophy p{
+text-align: left;
+font-size: 18px;
+padding: 20px;
+color: rgb(131, 11, 243);
+}
+
+.philosophy span{
+font-weight: bold;
+font-size: 20px;
+color: black;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 380px){
+  .AboutContainer{
+    height: 230vh;
+  }
+  .education{
+    height: 700vh;
+  }
+  .classtth{
+    height: 340vh;
+ 
+  }
+  .markscontainer{
+    height: 350vh;
+  }
+  .marksbox h4{
+    display: none;
+  }
+  .favorites{
+    height: 250vh;
+  }
+.favorites p{
+  font-size: 18px;
+}
+.favorites h1{
+  font-size: 25px;
+}
+.philosophy{
+  height: 380vh;
+}
+.philosophy h1{
+  font-size: 25px;
+}
+.philosophy p{
+  font-size: 18px;
+}
+
+}
+  
+
+
+
+
+

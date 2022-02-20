@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;700&family=Quintessential&display=swap');
+:root{
+    --blue:#3b26e0ea;
+    --green:#73e92f;
+    --yellow:#58e3e7ea;
+    --pink: #eb85c4ea;
+    --grey: #d8d1d5ea;
+    --white: #fffdfdce;
+    --violet: #8b42eb;
+    --gold: #e9b935ce;
+    
+    --gradient:linear-gradient(90deg, var(--blue), var(--green));
+    --gradient2:linear-gradient(60deg, var(--yellow), var(--pink));
+    --gradient3:linear-gradient(30deg, var(--grey), var(--white));
+    --gradient4:linear-gradient(80deg, var(--gold), var(--violet));
+
+  }
+
+*{margin: 0;
+padding: 0;
+}
+
+
+.sidebar{
+  background:var(--gradient);
+ 
+  font-family: 'Nunito', sans-serif;
+  height: 91vh;
+  position: absolute;
+ 
+  
+
+}
+
+
+.sidebarGo{
+transform: translate(-443px, 0px);
+position: absolute;
+}
+
+.hamburger{
+cursor: pointer;
+position: absolute;
+top: 10px;
+left: 10px;
+margin-top: 10px;
+}
+
+.ham{
+margin-top: 10px;
+margin-left: 10px;
+}
+
+.cross{
+margin-left: 145px;
+margin-top: 8px;
+}
+.sidebar nav{
+    padding: 45px;
+
+}
+
+.sidebar nav li{
+    font-size: 20px;
+    list-style: none;
+    padding: 33px 0;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar nav li a:hover{
+    
+    color: palevioletred;
+}
+
+
+.container{
+  display: flex;
+  
+  
+  
+}
+.main{
+  width: 100vw;
+  padding-left: 170px;
+    
+}
+
+.ContactContainer{
+    
+  height: 60vh;
+  width: 80vw;
+  margin: 144px  auto;
+  display: flex;
+  justify-content: space-around;
+  
+  
+
+}
+
+
+.contactcontainer{
+  box-sizing: border-box;
+  
+  
+  
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+ 
+}
+
+
+.contactform{
+  text-align: center;
+  justify-content: center;
+
+  font-size: 1.5em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  margin: 8px 2px;
+  padding: 5px 2px;
+    
+    
+
+}
+    
+  .contactform h1{
+      font-size: 1.5em;
+      margin: auto;
+      text-align: center;
+      color: blueviolet;
+      padding: 0 34px;
+      margin-bottom: 40px;
+
+
+  }
+ 
+ .contactname input{
+     padding: 10px;
+     border-radius: 12px;
+    
+     width: 25vw;
+     display: flex;
+     flex-direction: column;
+     font-size: 0.8em;
+     margin: 6px 0;
+
+ }
+ 
+ .contactname{
+   margin: 15px;
+ }
+ .contactemail{
+  margin: 15px;
+}
+.contactmessage{
+  margin: 15px;
+}
+.contactname label{
+  justify-content: center;
+  text-align: center;
+  padding-right: 5px;
+  margin-right: 40px;
+}
+
+ .contactemail input{
+  padding: 10px;
+  border-radius: 12px;
+ 
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8em;
+  margin: 6px 0;
+}
+.contactemail label{
+  justify-content: center;
+  text-align: center;
+  padding-right: 5px;
+  margin-right: 40px;
+}
+
+
+.contactmessage input{
+  padding: 10px;
+  border-radius: 12px;
+ 
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8em;
+  margin: 6px 0;
+  
+  
+   
+
+
+}
+
+.contactmessage label{
+  justify-content: center;
+  text-align: center;
+  padding-right: 5px;
+  margin-right: 40px;
+}
+
+.contactbutton{
+   
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+    margin-right: 44px;
+   
+
+
+}
+
+.contactbutton input{
+    
+   font-size: 0.9em;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+   font-weight: bold;
+   border-radius: 30px;
+    color: white;
+    background-color: dodgerblue;
+    padding: 9px 14px;
+    margin: 0 3px;
+    cursor: pointer;
+
+  
+  
+
+}
+  
+.contactbutton input:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+
+
+  
+  
+ 
+  
+.contactother{
+  
+  width: 80vw;
+  margin-left: 40px;
+}
+ .contactother h1{
+   text-align: center;
+ }
+
+
+ .contactother img{
+  height: 10rem;
+  width:10rem;
+  display: flex;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: auto;
+  margin-top: 10px;
+  padding-bottom: 10px;
+ 
+}
+.contactother h2{
+  text-align: center;
+  font-size: 30px;
+  color: aqua;
+  padding-bottom: 10px;
+
+}
+.contactother h3{
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 10px;
+
+}
+.contactother h4{
+  text-align: center;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+.contactother p{
+  text-align: center;
+  padding-bottom: 7px;
+  font-size: 20px;
+  color: rgb(56, 13, 245);
+}
+
+
+ 
+
+  .footer .boxcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    margin-top: 10px;
+    background: var(--gradient2);
+    
+    
+  }
+  
+  .footer .boxcontainer .box{
+    flex:1 1 20rem;
+    margin-left: 3px;
+    
+    
+  }
+  
+  .footer .boxcontainer .box h3{
+    font-size: 2.5rem;
+    color:var(--violet);
+    padding:.7rem 0;
+    margin-left: 2px;
+    font-size: 22px;
+    
+  }
+  
+  .footer .boxcontainer .box p{
+    font-size: 1.5rem;
+    color:#666;
+    padding:.7rem 0;
+    
+    
+  }
+  
+  .footer .boxcontainer .box a{
+    display: block;
+    color: black;
+    padding:.7rem 2px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .footer .boxcontainer .box a:hover{
+    color:rgb(84, 8, 224);
+  }
+  
+  .footer .boxcontainer .box p i{
+    padding-right: .5rem;
+    color:var(--pink);
+  }
+  
+  .footer .credit{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding:1rem;
+    padding-top: 2rem;
+    text-align: center;
+    border-top: .1rem solid rgba(0,0,0,.1);
+    color: black;
+    background: var(--gradient3);
+
+  }
+  
+  .footer .credit span{
+    color:var(--pink);
+  }
+
+  .credit a{
+    padding-left: 20px;
+    text-decoration: none;
+    padding-top: 10px ;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width:1365px){
+
+    
+    
+    .sidebar{
+      height: 110vh;
+    }
+
+    .main{
+      padding-left: 20px;
+      
+      
+    }
+
+   
+    
+    .ContactContainer{
+      margin-top: 170px;
+      height: 100vh;
+    }
+
+    .contactcontainer{
+      box-sizing: border-box;
+      
+      height: 500px;
+      
+      width: 800px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 60px;
+     
+     
+    }
+
+    .contactname input{
+      padding: 10px;
+      border-radius: 12px;
+     
+      width: 70vw;
+      display: flex;
+      flex-direction: column;
+      font-size: 0.7em;
+      margin: 6px 0;
+ 
+  }
+  
+  .contactname{
+    margin: 15px;
+  }
+  .contactemail{
+   margin: 15px;
+ }
+ .contactmessage{
+   margin: 15px;
+ }
+ .contactname label{
+   justify-content: center;
+   text-align: center;
+   padding-right: 5px;
+   margin-right: 40px;
+ }
+ 
+  .contactemail input{
+   padding: 10px;
+   border-radius: 12px;
+  
+   width: 70vw;
+   display: flex;
+   flex-direction: column;
+   font-size: 0.7em;
+   margin: 6px 0;
+ }
+ .contactemail label{
+   justify-content: center;
+   text-align: center;
+   padding-right: 5px;
+   margin-right: 40px;
+ }
+ 
+ 
+ .contactmessage input{
+   padding: 10px;
+   border-radius: 12px;
+  
+   width: 70vw;
+   display: flex;
+   flex-direction: column;
+   font-size: 0.7em;
+   margin: 6px 0;
+   
+   
+    
+ 
+ 
+ }
+ 
+ .contactmessage label{
+   justify-content: center;
+   text-align: center;
+   padding-right: 5px;
+   margin-right: 40px;
+ }
+ 
+ .contactbutton{
+    
+     box-sizing: border-box;
+     text-align: center;
+     justify-content: center;
+     padding-top: 15px;
+     margin-right: 44px;
+    
+ 
+ 
+ }
+ 
+ .contactbutton input{
+     
+    font-size: 0.9em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: bold;
+    border-radius: 30px;
+     color: white;
+     background-color: dodgerblue;
+     padding: 9px 14px;
+     margin: 0 3px;
+     cursor: pointer;
+ 
+   
+   
+ 
+ }
+   
+ .contactbutton input:hover{
+     color: dodgerblue;
+     background-color: white;
+ }
+ 
+    
+  
+ 
+
+ .contactother{
+  
+  height: 100vh;
+  width: 80vw;
+  margin-left: 30px;
+}
+
+.contactother h1{
+  font-size: 22px;
+}
+
+.contactother img{
+  height: 8rem;
+  width: 8rem;
+  display: flex;
+  border-radius: 80%;
+  object-fit: cover;
+  margin: auto;
+  margin-top: 10px;
+  padding-bottom: 10px;
+ 
+}
+.contactother h2{
+  text-align: center;
+  font-size: 25px;
+  color: aqua;
+  padding-bottom: 8px;
+
+}
+.contactother h3{
+  text-align: center;
+  font-size: 22px;
+  padding-bottom: 8px;
+
+}
+.contactother h4{
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 8px;
+}
+.contactother p{
+  text-align: center;
+  padding-bottom: 7px;
+  font-size: 19px;
+  color: rgb(56, 13, 245);
+}
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+  @media (max-width: 340px){
+    .container{
+      height: 290vh;
+    }
+  }
+
+  
