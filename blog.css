@@ -237,22 +237,7 @@ padding: 0;
     font-weight: lighter;
   }
 
-.readmore h1{
-  text-align: center;
-  padding-top: 30px;
-  font-size: 30px;
-}
-.readmore h2{
- text-align: center;
- padding-top: 30px;
- padding-bottom: 20px;
-}
-.readmore{
-  box-sizing: border-box;
-  width: 80%;
-  margin: auto;
-  padding-left: 40px;
-}
+
  
 
   
