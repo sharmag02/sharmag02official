@@ -96,7 +96,7 @@ padding: 0;
     
     width: 100vw;
     padding-left: 170px;
-    background: rgba(0,0,0,.6) url(gauravks.jpg);
+    background: rgba(0,0,0,.6) url(bg.jpg);
     background-blend-mode: darken;
     background-size: cover;
 
@@ -286,7 +286,7 @@ padding: 0;
 
     .main{
       padding-left: 20px;
-      background: rgba(0,0,0,.6) url(bg3.jpg);
+      background: rgba(0,0,0,.6) url(gauravks.jpg);
       background-size: cover;
       background-blend-mode: darken;
       height: 110vh;
